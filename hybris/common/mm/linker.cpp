@@ -1149,7 +1149,7 @@ static int open_library(const char* name, off64_t* file_offset) {
   // If the name contains a slash, we should attempt to open it directly and not search the paths.
   if (strchr(name, '/') != nullptr) {
     int fd = TEMP_FAILURE_RETRY(open(name, O_RDONLY | O_CLOEXEC));
-    //... But if it's not there, failback to search it in all other library paths
+    //... But if it's not there, failback to searching it in library paths.
     if (fd != -1) {
       *file_offset = 0;
       return fd;
