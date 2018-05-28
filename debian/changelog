@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 libhybris (0.1.0+git20151016+6d424c9-0ubuntu2) vivid; urgency=medium
 =======
+=======
+>>>>>>> origin/master
 libhybris (0.1.1+ubports1) xenial; urgency=medium
 
   * Backport to xenial
